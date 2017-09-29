@@ -155,9 +155,17 @@ h4 {
 .day-card {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: 450px;
   margin: auto;
+}
+
+.td {
+  width: 80px;
+}
+
+.td-day {
+  text-align: left;
 }
 
 .day-card p {
@@ -210,5 +218,22 @@ h4 {
 
   .description {
     max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .render-daily {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+
+  .render-daily {
+    margin: 5px;
+  }
+
+  .td-l {
+    width: 60px
   }
 }

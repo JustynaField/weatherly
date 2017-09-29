@@ -1,11 +1,11 @@
 {
-  "name": "react-starter-kit",
+  "name": "weatherly",
   "version": "1.0.0",
-  "description": "A good enough starter kit for a React project, I guess.",
-  "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server",
-    "build": "webpack.js",
+    "build": "webpack --config webpack.config.js",
     "test": "jest"
   },
   "repository": {
@@ -46,6 +46,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "jquery": "^3.2.1"
   }
 }
