@@ -1,6 +1,6 @@
 # Weatherly
 
-In this project we were tasked with building a working weather application useing React js and testing with enzyme and jest.
+In this project we were tasked with building a working weather application using React.js and testing with enzyme and jest.
 
 ## Motivation
 
@@ -29,3 +29,6 @@ handleWeatherSearch(weatherObj) {
   ```
   ## Contributors
   Justyna Field and Jack Bevis
+  
+  ## Page Layout
+  ![Page Layout](weatherly.png)
